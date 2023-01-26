@@ -68,12 +68,8 @@ function PostViewPage(props) {
                     }}
                 />
                 <PostContainer>
-                    <TitleText>
-                        {post.title}
-                    </TitleText>
-                    <ContentText>
-                        {post.content}
-                    </ContentText>
+                    <TitleText>{post.title}</TitleText>
+                    <ContentText>{post.content}</ContentText>
                 </PostContainer>
 
                 <CommentLabel>댓글</CommentLabel>

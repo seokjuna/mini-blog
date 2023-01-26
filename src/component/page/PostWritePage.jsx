@@ -28,7 +28,7 @@ function PostWritePage(props) {
     const navigate = useNavigate();
 
     const [title, setTitle] = useState("");
-    const [content, setContnet] = useState("");
+    const [content, setContent] = useState("");
 
     return (
         <Wrapper>
@@ -37,7 +37,7 @@ function PostWritePage(props) {
                     height={20}
                     value={title}
                     onChange={(event) => {
-                        setTitle(event.taarget.value);
+                        setTitle(event.target.value);
                     }}
                 />
 
@@ -45,7 +45,7 @@ function PostWritePage(props) {
                     height={480}
                     value={content}
                     onChange={(event) => {
-                        setContnet(event.taraget.value);
+                        setContent(event.target.value);
                     }}
                 />
 
